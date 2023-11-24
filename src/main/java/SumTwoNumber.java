@@ -8,7 +8,7 @@ public class SumTwoNumber {
             if (hashtable.containsKey(target - nums[i])) {
                 return new int[]{hashtable.get(target - nums[i]), i};
             }
-            hashtable.put(nums[i], i);
+            hashtable.put(nums[i], i); //
         }
         return new int[0];
     }
